@@ -23,7 +23,7 @@ def obtener_folios_desde_drive(url):
     folios = re.findall(r'\b[A-Z0-9]{10}\b', texto_completo)
     return set(folios)
 
-st.title("🔍 Buscador de Folios Aceptados")
+st.title("🔍 Buscador de Folios Aceptados del Programa Corazon de Mujer Morelos By: Emiliano Dorantes")
 st.write("Introduce tu folio para verificar si fue aceptado.")
 
 try:
