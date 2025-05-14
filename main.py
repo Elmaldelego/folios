@@ -4,7 +4,7 @@ import fitz  # PyMuPDF
 import io
 
 # ID del archivo en Google Drive
-FILE_ID = "1AbCDefGHIJKLmnopQRstuVWxyz123456"  # reemplaza por tu ID
+FILE_ID = "1b3SlIV2Tbb0wpm7vMnD5Ua3Q9MhuvWvc"  # reemplaza por tu ID
 FILE_URL = f"https://drive.google.com/uc?export=download&id={FILE_ID}"
 
 @st.cache_data
